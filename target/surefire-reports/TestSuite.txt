@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 1.444 s <<< FAILURE! - in TestSuite
+div(com.qa.tests.Demo)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [30]
+	at com.qa.tests.Demo.div(Demo.java:36)
+
+mul(com.qa.tests.Demo)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [30]
+	at com.qa.tests.Demo.mul(Demo.java:28)
+
+sub(com.qa.tests.Demo)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [-10] but found [30]
+	at com.qa.tests.Demo.sub(Demo.java:20)
+
+div(com.qa.tests.DemoTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [30]
+	at com.qa.tests.DemoTest.div(DemoTest.java:37)
+
+mul(com.qa.tests.DemoTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [30]
+	at com.qa.tests.DemoTest.mul(DemoTest.java:29)
+
+sub(com.qa.tests.DemoTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [-10] but found [30]
+	at com.qa.tests.DemoTest.sub(DemoTest.java:21)
+
