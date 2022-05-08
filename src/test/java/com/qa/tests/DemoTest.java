@@ -7,6 +7,7 @@ public class DemoTest {
 
 	@Test
 	public void sum() {
+		System.out.println("added new features from rachana");
 		System.out.println("Sum method");
 		int a=10;
 		int b=20;

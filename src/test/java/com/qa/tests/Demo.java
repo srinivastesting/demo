@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 public class Demo {
 	@Test
 	public void sum() {
+		System.out.println("added new features from rachana");
 		System.out.println("Sum method");
 		int a=10;
 		int b=20;
